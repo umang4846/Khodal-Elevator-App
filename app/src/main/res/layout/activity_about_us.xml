@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:src="@drawable/appprocessors" />
+
+            <TextView
+                android:id="@+id/tv_logo_motto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="We Develop an awesome Android apps, Websites and Designing."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_logo_motto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="It's All Started With Dreams"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View android:layout_height="1dp"
+            android:background="#aaa"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alice"
+            android:padding="8dp"
+            android:text="Connect With Us"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="22sp" />
+        <View android:layout_height="1dp"
+            android:background="#aaa"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_Call_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:padding="3dp"
+                android:src="@drawable/phone_96" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/alice"
+                android:padding="5dp"
+                android:text="Call Us"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <View android:layout_height="1dp"
+            android:background="#aaa"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            />
+        <LinearLayout
+            android:id="@+id/ll_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:padding="5dp"
+                android:src="@drawable/about_icon_link" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/alice"
+                android:padding="5dp"
+                android:text="Visit our Website"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <View android:layout_height="1dp"
+            android:background="#aaa"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/ll_Contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:padding="3dp"
+                android:src="@drawable/gmail_96" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/alice"
+                android:padding="5dp"
+                android:text="Contact Us"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <View android:layout_height="1dp"
+            android:background="#aaa"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/facebook_96" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/alice"
+                android:padding="5dp"
+                android:text="Like us on Facebook"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <View android:layout_height="1dp"
+            android:background="#aaa"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/twitter_96" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/alice"
+                android:padding="5dp"
+                android:text="Follow us on Twitter"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <View android:layout_height="1dp"
+            android:background="#aaa"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_instagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/instagram_96" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/alice"
+                android:padding="5dp"
+                android:text="Follow us on Instagram"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

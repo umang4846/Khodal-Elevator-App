@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Khodal Elevator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">We are one of the global leaders in the elevator and escalator industry. Founded in 2013, we have been committed to understanding the needs of our customers for over a century. We provide innovative and eco-efficient solutions for elevators, escalators and automatic building doors.
+Our objective is to offer the best People FlowÂ® experience by developing and delivering solutions that enable people to move smoothly, safely, comfortably and without waiting in buildings in an increasingly urbanizing environment.</string>
+
+</resources>
